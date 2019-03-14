@@ -3,8 +3,6 @@ module HW01 where
 
 -- Exercise 1 -----------------------------------------
 
-{-# OPTIONS_GHC -Wall #-}
-
 toDigits :: Integer -> [Integer]
 toDigits n
   | n <= 0 = []
